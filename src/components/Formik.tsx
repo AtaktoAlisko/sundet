@@ -49,7 +49,7 @@ export default function Formik() {
     <>
       <form onSubmit={handleSubmit} className="mx-auto w-full max-w-md px-4">
         <div className="flex flex-col text-center font-georgia">
-          <div className="mb-4 mt-3 text-xl uppercase text-[#556B2F]">
+          <div className="mb-4 mt-3 text-xl uppercase text-[#98761A]">
             тойға келетініңізді <br /> растауыңызды <br /> сұраймыз!
           </div>
           <div className="mt-2 flex flex-col items-center">
@@ -104,13 +104,13 @@ export default function Formik() {
               </div>
             )}
             {successMessage && (
-              <div className="mt-3 w-full max-w-[85%] text-left text-green-500">
+              <div className="mt-3 w-full max-w-[85%] bg-[#98761A] text-left">
                 {successMessage}
               </div>
             )}
             <button
               type="submit"
-              className="mt-8 h-10 w-full max-w-[85%] rounded-3xl bg-[#556B2F] px-2 text-lg text-[#FFFFFF] drop-shadow-lg"
+              className="mt-8 h-10 w-full max-w-[85%] rounded-3xl bg-[#98761A] px-2 text-lg text-[#FFFFFF] drop-shadow-lg"
               disabled={isLoading}
             >
               {isLoading ? "Жіберілуде..." : "Жіберу"}
@@ -118,7 +118,7 @@ export default function Formik() {
           </div>
         </div>
       </form>
-      <div className="mb-10 mt-16 flex flex-col text-center font-xxx text-2xl leading-relaxed text-[#090909]">
+      <div className="mb-10 mt-16 flex flex-col text-center font-xxx text-2xl leading-relaxed text-[#98761A]">
         Келіңіздер, салтанатты <br /> тоймыздың қадірлі <br /> қонағы
         болыңыздар!
       </div>
