@@ -104,7 +104,7 @@ export default function Formik() {
               </div>
             )}
             {successMessage && (
-              <div className="mt-3 w-full max-w-[85%] bg-[#98761A] text-left">
+              <div className="mt-3 w-full max-w-[85%] text-left text-[#98761A]">
                 {successMessage}
               </div>
             )}
