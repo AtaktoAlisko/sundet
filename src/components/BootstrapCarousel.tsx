@@ -64,24 +64,6 @@ const BootstrapCarousel: React.FC = () => {
             objectFit="cover"
           />
         </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/nazira-2.JPG"
-            className="d-block h-full w-full"
-            alt="Camera"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-        <div className="carousel-item h-full">
-          <Image
-            src="/nazira-3.JPG"
-            className="d-block h-full w-full"
-            alt="Exotic Fruits"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
       </div>
       <button
         className="carousel-control-prev"

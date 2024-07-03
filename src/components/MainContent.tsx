@@ -28,7 +28,7 @@ export default function MainContent() {
       >
         Құрметті ағайын-туыс <br />
         бауырлар, құда-жекжат, <br /> нағашы-жиен, бөлелер, <br /> дос-жараңдар,
-        әріптестер, <br /> көршілер!
+        көршілер!
       </div>
       <div
         data-aos="fade-up"
@@ -76,51 +76,6 @@ export default function MainContent() {
             </div>
           </div>
         </div>
-      </div>
-      <div
-        data-aos="flip-down"
-        className="mb-8 font-xxx text-3xl leading-relaxed text-[#846718]"
-      >
-        Тойдың <br /> бағдарламасы:
-      </div>
-      <div className="relative grid grid-cols-2 items-center gap-x-10 text-center font-georgia text-[#050505]">
-        <div data-aos="zoom-out" data-aos-delay="200" className="text-xl">
-          17:30 <br /> қонақтардың <br /> жиналуы
-        </div>
-        <Image
-          data-aos="zoom-in"
-          src="/bg-2.webp"
-          alt="background"
-          width={100}
-          height={100}
-          className="relative bottom-1 mx-auto"
-        />
-        <Image
-          data-aos="zoom-in"
-          src="/bg-3.webp"
-          alt="background"
-          width={100}
-          height={100}
-          className="relative bottom-1 mx-auto"
-        />
-        <div data-aos="zoom-out" data-aos-delay="200" className="text-xl">
-          18:00 <br /> тойдың <br /> басталуы
-        </div>
-        <div data-aos="zoom-out" data-aos-delay="200" className="text-xl">
-          21:30 <br /> суретке түсу
-        </div>
-        <Image
-          data-aos="zoom-in"
-          src="/opop.png"
-          alt="background"
-          width={100}
-          height={100}
-          className="relative bottom-3 mx-auto mt-2"
-        />
-        <div className="absolute left-[50%] h-full border-[0.5px] border-[#98761A]"></div>
-        <div className="absolute left-[47.5%] top-[10%] h-4 w-4 rounded-[50%] bg-[#CC9B33]"></div>
-        <div className="absolute left-[47.5%] h-4 w-4 rounded-[50%] bg-[#CC9B33]"></div>
-        <div className="absolute bottom-[10%] left-[47.5%] h-4 w-4 rounded-[50%] bg-[#CC9B33]"></div>
       </div>
     </div>
   );

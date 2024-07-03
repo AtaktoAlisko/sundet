@@ -95,41 +95,11 @@ export default function Info() {
         height={200}
         className="mx-auto w-[70%] -rotate-6"
       />
-      <div
-        data-aos="fade-up"
-        className="mb-4 mt-[-5px] font-xxx text-3xl text-[#846718]"
-      >
-        Дресс-код:
-      </div>
+
       <div
         data-aos="fade-up"
         className="mb-10 flex items-center justify-center gap-16 font-georgia"
-      >
-        <div className="flex flex-col text-center">
-          <Image
-            src="/men.png"
-            alt="men clothes"
-            width={100}
-            height={100}
-            className="overflow-hidden"
-          />
-          <div className="text-[17px] uppercase">
-            Ерлер <br /> қауымы
-          </div>
-        </div>
-        <div className="flex flex-col text-center">
-          <Image
-            src="/women.png"
-            alt="women clothes"
-            width={100}
-            height={100}
-            className="overflow-hidden"
-          />
-          <div className="text-[17px] uppercase">
-            Әйелдер <br /> қауымы
-          </div>
-        </div>
-      </div>
+      ></div>
       <div className="relative flex h-[70vh] w-full justify-center bg-[url('/shanyraq.webp')] bg-cover bg-center bg-no-repeat">
         <div className="flex flex-col items-center pt-20 text-center">
           <div className="mb-6 font-xxx text-2xl text-[#FCF7F7]">
